@@ -4,17 +4,14 @@
 <head>
     <meta charset="utf-8" />
     <title>NEAR Network</title>
-    <!-- Include the ECharts file you just downloaded -->
     <script src="https://cdn.jsdelivr.net/npm/echarts@5.3.3/dist/echarts.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
-    <!-- Prepare a DOM with a defined width and height for ECharts -->
     <div id="main" class="bg-black min-h-screen min-w-screen"></div>
     <script type="text/javascript">
-        // Initialize the echarts instance based on the prepared dom
         var myChart = echarts.init(document.getElementById('main'));
 
         myChart.showLoading();
