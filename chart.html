@@ -18,7 +18,7 @@
         var myChart = echarts.init(document.getElementById('main'));
 
         myChart.showLoading();
-        $.getJSON('http://localhost:8000/data.json', function (json) {
+        $.getJSON('https://raw.githubusercontent.com/jokersden/networks/main/data.json', function (json) {
             myChart.hideLoading();
             myChart.setOption(option = {
                 title: {
