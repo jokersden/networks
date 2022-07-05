@@ -30,14 +30,14 @@
                     {
                         type: 'graph',
                         layout: 'none',
-                        // progressiveThreshold: 700,
+                        //progressiveThreshold: 700,
                         data: json.nodes.map(function (node) {
                             return {
                                 x: node.x,
                                 y: node.y,
                                 id: node.id,
                                 name: node.label,
-                                symbolSize: node.size / 4,
+                                symbolSize: node.size / 6,
                                 itemStyle: {
                                     color: node.color
                                 }
