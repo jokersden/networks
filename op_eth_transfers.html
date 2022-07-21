@@ -15,7 +15,7 @@
         var myChart = echarts.init(document.getElementById('main'));
 
         myChart.showLoading();
-        $.getJSON('https://raw.githubusercontent.com/jokersden/networks/main/data_op_eth_transfers.json', function (json) {
+        $.getJSON('https://raw.githubusercontent.com/jokersden/networks/main/data_op_eth_transfers_2.json', function (json) {
             myChart.hideLoading();
             myChart.setOption(option = {
                 title: {
